@@ -1,0 +1,183 @@
+logger1: Hello
+logger1: Hello
+logger3: Hello
+logger1: Hello
+logger3: Hello
+logger1: Hello
+logger3: Hello
+logger1: Hello
+logger3: Hello
+logger1: Hello
+logger3: Hello
+logger1: Hello
+logger3: Hello
+logger1: Hello
+logger3: Hello
+logger1: Hello
+logger3: Hello
+logger1: Hello
+logger3: Hello
+logger1: Hello
+logger3: Hello
+logger1: Hello
+logger3: Hello
+logger1: Hello
+logger3: Hello
+logger1: Hello
+logger3: Hello
+logger1: Hello
+logger3: Hello
+logger1: Hello
+logger3: Hello
+logger1: Hello
+logger3: Hello
+logger_before_request
+logger1: Hello
+logger3: Hello
+before_request
+ * Debugger is active!
+ * Debugger is active!
+ * Debugger is active!
+ * Debugger PIN: 231-176-207
+ * Debugger PIN: 231-176-207
+ * Debugger PIN: 231-176-207
+ * Running on http://127.0.0.1:19000/ (Press CTRL+C to quit)
+ * Running on http://127.0.0.1:19000/ (Press CTRL+C to quit)
+ * Running on http://127.0.0.1:19000/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Restarting with stat
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger is active!
+ * Debugger is active!
+ * Debugger PIN: 231-176-207
+ * Debugger PIN: 231-176-207
+ * Debugger PIN: 231-176-207
+before_request
+127.0.0.1 - - [25/Jun/2019 22:03:31] "GET /a HTTP/1.1" 404 -
+127.0.0.1 - - [25/Jun/2019 22:03:31] "GET /a HTTP/1.1" 404 -
+127.0.0.1 - - [25/Jun/2019 22:03:31] "GET /a HTTP/1.1" 404 -
+before_request
+logger1: Hello
+logger3: Hello
+127.0.0.1 - - [25/Jun/2019 22:03:37] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [25/Jun/2019 22:03:37] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [25/Jun/2019 22:03:37] "GET / HTTP/1.1" 200 -
+ * Detected change in '/Users/morita/gocha/python/flask/hello.py', reloading
+ * Detected change in '/Users/morita/gocha/python/flask/hello.py', reloading
+ * Detected change in '/Users/morita/gocha/python/flask/hello.py', reloading
+ * Restarting with stat
+ * Restarting with stat
+ * Restarting with stat
+before_request
+logger1: Hello
+logger3: Hello
+before_request
+before_request
+before_request
+logger1: Hello
+logger3: Hello
+logger1: Hello
+logger3: Hello
+logger1: Hello
+logger3: Hello
+logger1: Hello
+logger3: Hello
+before_request
+logger1: Hello
+logger3: Hello
+ * Debugger is active!
+ * Debugger is active!
+ * Debugger is active!
+ * Debugger PIN: 231-176-207
+ * Debugger PIN: 231-176-207
+ * Debugger PIN: 231-176-207
+ * Running on http://127.0.0.1:19000/ (Press CTRL+C to quit)
+ * Running on http://127.0.0.1:19000/ (Press CTRL+C to quit)
+ * Running on http://127.0.0.1:19000/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Restarting with stat
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger is active!
+ * Debugger is active!
+ * Debugger PIN: 231-176-207
+ * Debugger PIN: 231-176-207
+ * Debugger PIN: 231-176-207
+ * Detected change in '/Users/morita/gocha/python/flask/hello.py', reloading
+ * Detected change in '/Users/morita/gocha/python/flask/hello.py', reloading
+ * Detected change in '/Users/morita/gocha/python/flask/hello.py', reloading
+ * Restarting with stat
+ * Restarting with stat
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger is active!
+ * Debugger is active!
+ * Debugger PIN: 231-176-207
+ * Debugger PIN: 231-176-207
+ * Debugger PIN: 231-176-207
+ * Running on http://127.0.0.1:19000/ (Press CTRL+C to quit)
+ * Running on http://127.0.0.1:19000/ (Press CTRL+C to quit)
+ * Running on http://127.0.0.1:19000/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Restarting with stat
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger is active!
+ * Debugger is active!
+ * Debugger PIN: 231-176-207
+ * Debugger PIN: 231-176-207
+ * Debugger PIN: 231-176-207
+before_request
+logger1: Hello
+logger3: Hello
+127.0.0.1 - - [26/Jun/2019 00:58:14] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jun/2019 00:58:14] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jun/2019 00:58:14] "GET / HTTP/1.1" 200 -
+ * Detected change in '/Users/morita/gocha/python/flask/hello.py', reloading
+ * Detected change in '/Users/morita/gocha/python/flask/hello.py', reloading
+ * Detected change in '/Users/morita/gocha/python/flask/hello.py', reloading
+ * Restarting with stat
+ * Restarting with stat
+ * Restarting with stat
+before_request
+before_request
+before_request
+before_request
+before_request
+before_request
+before_request
+before_request
+before_request
+before_request
+before_request
+before_request
+before_request
+before_request
+before_request
+before_request
+before_request
+before_request
+before_request
+before_request
+before_request
+logger1: Hello
+logger3: Hello
+before_request
+logger1: Hello
+logger3: Hello
+before_request
+logger1: Hello
+logger3: Hello
+before_request
+logger1: Hello
+logger3: Hello
+before_request
+logger3: Hello
+before_request
+logger3: Hello
+before_request
+before_request
+before_request
+before_request
+before_request
