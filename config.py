@@ -17,7 +17,7 @@ class DevelopmentConfig(object):
         'user': 'dev',
         'password': 'secret',
         'host': 'localhost',
-        'port': '15432',
+        'port': '5432',
         'dbname': 'dev'
     }
     DROP_ON_INIT = False
