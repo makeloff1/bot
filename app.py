@@ -1,13 +1,14 @@
 from flask import Flask, jsonify
 import logging.config
-from database import db
+from database import init_db
 from config import DevelopmentConfig
+from model import Message
 
 
 def create_app():
     app = Flask(__name__)
     app.config.from_object(DevelopmentConfig)
-    db.init_app(app)
+    init_db(app)
 
     return app
 

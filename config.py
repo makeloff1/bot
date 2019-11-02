@@ -16,7 +16,7 @@ class DevelopmentConfig(object):
     POSTGRES_ENV = {
         'user': 'dev',
         'password': 'secret',
-        'host': 'localhost',
+        'host': 'postgresql',
         'port': '5432',
         'dbname': 'dev'
     }
