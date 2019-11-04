@@ -32,7 +32,7 @@ pipenv run flask run --host=0.0.0.0 --port=10090
 curl http://localhost:10090/hello/
 ```
 
-## これが終わった後の段階的な練習（これが全部できたら、NTTPCの開発にも参加可能）
+## これが終わった後の段階的な練習
 - Slack連携(Bot作成)
   - https://api.slack.com/apps
 - Postgresql or Mysql(MariaDB)と連携してみる
