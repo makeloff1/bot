@@ -11,6 +11,7 @@ pyyaml = "*"
 flask-sqlalchemy = "*"
 flask-migrate = "*"
 psycopg2-binary = "*"
+slackclient = "*"
 
 [requires]
 python_version = "3.7"

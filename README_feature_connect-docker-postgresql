@@ -1,0 +1,7 @@
+追加分
+
+- flaskとpostgresqlをdocker上に立てて接続
+
+- 必要な知識
+  - flask_migrate
+  - dockerのdepends_onとコンテナ内接続    

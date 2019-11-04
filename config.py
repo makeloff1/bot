@@ -22,3 +22,4 @@ class DevelopmentConfig(object):
     }
     DROP_ON_INIT = False
     SQLALCHEMY_DATABASE_URI = 'postgresql://%(user)s:%(password)s@%(host)s:%(port)s/%(dbname)s' % POSTGRES_ENV
+
