@@ -1,0 +1,17 @@
+version: "3"
+
+services:
+  hellopython:
+    image:  hellopython:latest
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    container_name: my_container 
+    environment:
+      TZ: Asia/Tokyo
+      PIPENV_PIPFILE: /home/admin/hellopython/Pipfile
+    command: /bin/bash -c /home/admin/hellopython/start_flask.sh
+    # command: /sbin/init
+    ports:
+      - 20090:10090
+    user: root
