@@ -1,17 +1,13 @@
 # bot
 
-## Flask app 起動手順
+## Flask app on Docker 起動手順
 ```bash
-pip install pipenv
-(or you'll do "pip3 install pipenv")
-
-pipenv install --dev
-(if you'll occur error, do "pipenv install --python=<your/python/path>")
-
-pipenv run flask run --host=0.0.0.0 --port=10090
+# python3 も pipも何もいらない
+docker-compose up
+# デーモン化するには -d をつける
 ```
 
 ## API確認手順
 ```bash
-curl http://localhost:10090/hello/
+curl http://localhost:20090/hello/
 ```
