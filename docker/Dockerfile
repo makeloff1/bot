@@ -22,7 +22,7 @@ RUN ln -s /usr/bin/pip3.7 /bin/pip
 RUN rm /usr/bin/python
 RUN ln -s /usr/bin/python3.7 /usr/bin/python
 
-WORKDIR /home/admin/linedesign
+WORKDIR /home/admin/obentobot
 
 # config
 ENV DEVELOPMENT True

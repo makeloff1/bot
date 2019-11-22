@@ -1,26 +1,27 @@
 version: "3"
 
 services:
-  linedesign:
-    image:  linedesign:latest
+  obentobot:
+    image:  obentobot:latest
     build:
       context: .
       dockerfile: ./docker/Dockerfile
-    container_name: linedesign
+    container_name: obentobot
     environment:
       TZ: Asia/Tokyo
-      PIPENV_PIPFILE: /home/admin/linedesign/Pipfile
+      PIPENV_PIPFILE: /home/admin/obentobot/Pipfile
     ports:
       - 10090:10090
     user: root
-    command: ['./wait-postgres.sh', 'postgresql', '/bin/bash -c "/home/admin/linedesign/scripts/start_web.sh"']
+    # command: ['/bin/bash', 'wait-postgres.sh', 'postgresql', '&&', '/bin/bash -c "/home/admin/obentobot/scripts/start_web.sh"']
+    command: /bin/bash -c "/bin/bash wait-postgres.sh postgresql && /bin/bash /home/admin/obentobot/scripts/start_web.sh"
     # command: /sbin/init
     depends_on:
       - postgresql
 
   postgresql:
     image: postgres:10.8
-    container_name: postgresql_linedesign
+    container_name: postgresql_obentobot
     ports:
       - 5432:5432
     volumes:

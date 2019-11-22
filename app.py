@@ -19,7 +19,6 @@ app = create_app()
 app.app_context().push()
 
 SLACK_BOT_TOKEN = "xoxb-811268029777-806459553058-utf9HHsCJwJxmyXNoxdKMZDA"
-# slack_bot = slack.RTMClient(os.environ["SLACK_BOT_TOKEN"])
 slack_bot = slack.WebClient(token=SLACK_BOT_TOKEN)
 
 attachments_json = [
